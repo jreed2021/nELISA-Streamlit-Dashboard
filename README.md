@@ -41,7 +41,7 @@ This will open the app in your web browser.
 
 ## 🌍 Deployment on Streamlit Cloud
 The app is publicly accessible at:
-🔗 **[Live App Link](https://https://nelisareportpy-ntycjsyqxb6brsua7k6gek.streamlit.app/)**
+🔗 **[Live App Link](https://nelisareportpy-ntycjsyqxb6brsua7k6gek.streamlit.app/)**
 
 ## 📊 Example Screenshots
 
