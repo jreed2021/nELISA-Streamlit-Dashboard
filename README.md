@@ -41,10 +41,14 @@ This will open the app in your web browser.
 
 ## 🌍 Deployment on Streamlit Cloud
 The app is publicly accessible at:
-🔗 **[Live App Link](https://your-streamlit-app-url)**
+🔗 **[Live App Link](https://https://nelisareportpy-ntycjsyqxb6brsua7k6gek.streamlit.app/)**
 
 ## 📊 Example Screenshots
-(Insert screenshots of your Streamlit dashboard here)
+
+![image](https://github.com/user-attachments/assets/1fcb1baf-b977-404a-b7a9-ef3e0b1b763d)
+![image](https://github.com/user-attachments/assets/93190766-e321-4a51-8768-222ca18bcb45)
+![image](https://github.com/user-attachments/assets/60b7ac1e-013b-42be-b294-1c2254573cd9)
+
 
 ## 📌 About the Data
 The dataset contains **protein concentration measurements** from an **nELISA experiment** with multiple treatment groups and time points.
@@ -65,7 +69,7 @@ The dataset contains **protein concentration measurements** from an **nELISA exp
 This project is **open-source** under the MIT License.
 
 ## ✉️ Contact
-For questions or suggestions, reach out via GitHub Issues or connect with me on [LinkedIn](https://www.linkedin.com/in/your-profile).
+For questions or suggestions, reach out via GitHub Issues or connect with me on [LinkedIn](https://www.linkedin.com/in/janessa-clark-reed-els-aab-413263111).
 
 ---
 
