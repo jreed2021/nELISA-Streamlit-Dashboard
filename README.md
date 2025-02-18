@@ -65,6 +65,16 @@ The dataset contains **protein concentration measurements** from an **nELISA exp
 - **Pandas** 🏭 (for data handling)
 - **Plotly** 📊 (for visualization)
 
+## 📓 Jupyter Notebook Analysis
+For a step-by-step exploratory data analysis (EDA) and statistical insights, check out:
+🔗 [nELISA_Data_Analysis.ipynb](./nELISA_Data_Analysis.ipynb)
+
+This notebook provides:
+- Data cleaning & preprocessing
+- Summary statistics & visualizations
+- Hypothesis testing (ANOVA, t-tests)
+
+
 ## 📜 License
 This project is **open-source** under the MIT License.
 
