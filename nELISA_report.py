@@ -16,7 +16,7 @@ import plotly.express as px
 df = pd.read_csv('simulated_nELISA_data.csv')  # Change to your actual file path
 
 # Streamlit UI
-st.title("📊 nELISA Data Interactive Report")
+st.title("nELISA Data Interactive Report")
 st.write("Explore and analyze nELISA data dynamically.")
 
 # Dropdown for selecting a protein
@@ -29,14 +29,14 @@ fig = px.box(df, x="Group", y=protein, color="Group",
 st.plotly_chart(fig)
 
 # Show dataset table (optional)
-if st.checkbox("📂 Show Data Table"):
+if st.checkbox("Show Data Table"):
     st.dataframe(df)
 
 # Add summary statistics
-st.subheader("📊 Summary Statistics")
+st.subheader("Summary Statistics")
 st.write(df.groupby("Group")[protein].describe())
 
-st.sidebar.header("🔍 Filter Options")
+st.sidebar.header("Filter Options")
 if st.sidebar.checkbox("Filter by Time Point"):
     time_points = df["Time_Point"].unique()
     selected_time = st.sidebar.multiselect("Select Time Points:", time_points, default=time_points)
@@ -47,5 +47,5 @@ if st.sidebar.checkbox("Filter by Time Point"):
 fig_filtered = px.box(df, x="Group", y=protein, color="Group", title=f"{protein} Concentration by Group (Filtered)", points="all")
 st.plotly_chart(fig_filtered)
 
-st.write("Developed with ❤️ using Streamlit & Plotly")
+st.write("Developed with Streamlit & Plotly")
 
